@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linLayout">
+
+    <!-- LinearLayout for the buttons -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20px">
+
+
+        <Button
+            android:id="@+id/btnClose"
+            style="@style/darkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="Close"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_create_qr"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@android:color/white"
+            android:drawablePadding="20dp"
+            android:background="@drawable/ic_qrbtn"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:id="@+id/tvButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="Generate QR"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_scan_qr"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@android:color/white"
+            android:drawablePadding="20dp"
+            android:background="@drawable/ic_qrbtn"
+            android:layout_alignParentBottom="true"
+             />
+
+        <TextView
+            android:id="@+id/tvButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="Scan QR"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white" />
+
+        <!-- TextView remains unchanged -->
+        <TextView
+            android:id="@+id/tvMapItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/pale_silver" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qrCodeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/qr_code_image_description"
+        android:padding="16dp"
+        android:adjustViewBounds="true"/>
+
+</LinearLayout>
+
+

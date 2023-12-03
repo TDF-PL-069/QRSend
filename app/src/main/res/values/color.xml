@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- COMMON -->
+    <color name="white">#ffffff</color>
+    <color name="darker_gray">#121212</color>
+
+    <color name="light_salmon_pink">#ff9d9d</color>
+    <color name="black">#000000</color>
+    <color name="mint_green">#9dffaf</color>
+
+    <color name="pale_silver">#cdc8b0</color>
+
+    <!-- LED -->
+
+    <!-- PRESET -->
+
+</resources>

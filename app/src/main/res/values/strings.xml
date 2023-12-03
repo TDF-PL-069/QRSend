@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">QRSend</string>
+    <!-- description -->
+    <string name="app_desc">Tool for building QR codes for CoT data</string>
+    <string name="nogps_stmt">No GPS</string>
+    <string name="map_source">Map Source</string>
+
+    <string name="callsign">Callsign</string>
+    <string name="location">Location</string>
+    <string name="speed">Speed</string>
+    <string name="accuracy">Accuracy</string>
+
+    <string name="altitude_title">Altitude:</string>
+    <string name="heading_title">Heading:</string>
+    <string name="qr_code_image_description">QR Code</string>
+
+</resources>

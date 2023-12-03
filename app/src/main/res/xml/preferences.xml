@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="prefsScreen">
+    <com.atakmap.android.gui.PanCheckBoxPreference
+        android:key="AutoEnableTracking"
+        android:summary="Automatically enable tracking for all members"
+        android:title="Track Everyone"
+        />
+
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="AutoTagging"
+        android:defaultValue=""
+        android:dialogTitle="Apply this hashtag to all objects"
+        android:inputType="textNoSuggestions"
+        android:summary="Applies this hashtag to all newly created objects"
+        android:title="Add hashtag to all new objects" />
+</PreferenceScreen>
